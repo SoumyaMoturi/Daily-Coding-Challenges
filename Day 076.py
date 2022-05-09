@@ -10,8 +10,6 @@ cba
 daf
 ghi
 
-
-
 This is not ordered because of the a in the center. We can remove the second column to make it ordered:
 
 """

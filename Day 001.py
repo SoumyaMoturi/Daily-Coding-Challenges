@@ -1,3 +1,4 @@
+
 '''
 This problem was recently asked by Google.
 
@@ -8,7 +9,6 @@ For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 Bonus: Can you do this in one pass?
 '''
 
-
 def AddTwoNumbers(numbers,k):
     for num in numbers:
         if k-num in numbers:
@@ -16,4 +16,5 @@ def AddTwoNumbers(numbers,k):
     return False
 numbers=list(map(int,input().split()))
 k=int(input())
+l=[]
 print(AddTwoNumbers(numbers,k))
